@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/uriel/Documents/workspace-JSP and Servlets Java EE/JAVA_JSP_MODELO_VISTA_CONTROLADOR_DISENIO_CRUD"/>
+		<item value="/home/uriel/Documents/workspace-JSP and Servlets Java EE/JAVAEE-Project-Comercializadora"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="383" key="DIALOG_X_ORIGIN"/>
+		<item value="114" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

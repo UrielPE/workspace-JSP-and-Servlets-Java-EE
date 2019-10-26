@@ -1,0 +1,15 @@
+127.0.0.1 - - [18/Jun/2019:19:38:17 -0500] "GET / HTTP/1.1" 404 1002
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:38:23 -0500] "GET /JAVAEE-Sistema-De-Ventas/index.jsp HTTP/1.1" 200 1733
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:38:23 -0500] "GET /JAVAEE-Sistema-De-Ventas/WEB-INF/img/logoLogin.jpeg HTTP/1.1" 404 975
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:38:25 -0500] "GET /favicon.ico HTTP/1.1" 404 1013
+127.0.0.1 - - [18/Jun/2019:19:38:26 -0500] "GET /JAVAEE-Sistema-De-Ventas/ HTTP/1.1" 200 1733
+127.0.0.1 - - [18/Jun/2019:19:38:26 -0500] "GET /JAVAEE-Sistema-De-Ventas/WEB-INF/img/logoLogin.jpeg HTTP/1.1" 404 975
+127.0.0.1 - - [18/Jun/2019:19:38:28 -0500] "GET /JAVAEE-Sistema-De-Ventas/WEB-INF/img/logoLogin.jpeg HTTP/1.1" 404 975
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:38:33 -0500] "GET /JAVAEE-Sistema-De-Ventas/index.jsp HTTP/1.1" 200 1733
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:38:33 -0500] "GET /JAVAEE-Sistema-De-Ventas/WEB-INF/img/logoLogin.jpeg HTTP/1.1" 404 975
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:42:09 -0500] "GET /JAVAEE-Sistema-De-Ventas/index.jsp HTTP/1.1" 200 1732
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:42:09 -0500] "GET /JAVAEE-Sistema-De-Ventas/WEB-INF/img/logoLogin.png HTTP/1.1" 404 975
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:42:59 -0500] "GET /JAVAEE-Sistema-De-Ventas/index.jsp HTTP/1.1" 200 1750
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:42:59 -0500] "GET /JAVAEE-Sistema-De-Ventas/img/logoLogin.png HTTP/1.1" 404 1052
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:43:14 -0500] "GET /JAVAEE-Sistema-De-Ventas/index.jsp HTTP/1.1" 200 1758
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:19:43:14 -0500] "GET /JAVAEE-Sistema-De-Ventas/WEB-INF/img/logoLogin.png HTTP/1.1" 404 975

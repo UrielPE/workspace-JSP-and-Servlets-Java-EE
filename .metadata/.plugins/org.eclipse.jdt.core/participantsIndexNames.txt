@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+/home/uriel/Documents/workspace-JSP and Servlets Java EE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2411972878.index
+/JAVAEE-Sistema-De-Ventas/src
+/home/uriel/Documents/workspace-JSP and Servlets Java EE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2181834831.index
+/JAVAEE-Project-Comercializadora/src/java
+/home/uriel/Documents/workspace-JSP and Servlets Java EE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1190227548.index
+/JAVA_JSP_MODELO_VISTA_CONTROLADOR_DISENIO_CRUD/src/java
+/home/uriel/Documents/workspace-JSP and Servlets Java EE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/822913437.index
+/JAVAEE-Sistema-De-Ventas/src
+/home/uriel/Documents/workspace-JSP and Servlets Java EE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1411843684.index
+/JAVAEE-Sistema-De-Ventas/src
+/home/uriel/Documents/workspace-JSP and Servlets Java EE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1765054589.index
+/JAVA_JSP_MODELO_VISTA_CONTROLADOR_DISENIO_CRUD/src/java
+/home/uriel/Documents/workspace-JSP and Servlets Java EE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/970193725.index
+/JAVAEE-Project-Comercializadora/src/java
