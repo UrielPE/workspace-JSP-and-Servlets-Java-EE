@@ -28,6 +28,16 @@ public class Home extends HttpServlet
             session.setAttribute( "nom_moneda", "$ Pesos Mexicanos" );
         }//end if
         
+        if( request.getParameter( "category" ) != null ){
+            session.setAttribute( "category" , Integer.parseInt(request.getParameter( "category" )) );
+        }else if( request.getParameter( "brand" ) != null ){
+            session.setAttribute( "brand" , Integer.parseInt(request.getParameter( "brand" )) );
+        }else{
+            session.setAttribute( "category" , 0 );
+            session.setAttribute( "brand" , 0 );
+        }
+       
+        
         request.getRequestDispatcher( "WEB-INF/partials/index.jsp" )
             .forward( request, response );
     }//end method processRequest

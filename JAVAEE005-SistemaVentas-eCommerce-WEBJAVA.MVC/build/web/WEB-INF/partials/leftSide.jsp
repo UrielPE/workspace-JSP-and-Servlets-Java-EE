@@ -1,3 +1,9 @@
+<%@page import="sit.ecommerce.model.dao.MarcaDAO"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@page import="sit.ecommerce.model.dao.CategoriaDao"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="sit.ecommerce.model.vo.Categoria"%>
+
 <div class="left-sidebar">
     <h2>Categorías</h2>
     <div class="panel-group category-products" id="accordian"><!--category-productsr-->
@@ -13,11 +19,11 @@
                 <h4 class="panel-title">
                     <a <% if (CategoriaDao.esSuperior(codigo)) { %> data-toggle="collapse" data-parent="#accordian" <%}%> href="#<%= codigo%>">
                         <% if (CategoriaDao.esSuperior(codigo)) { %><span class="badge pull-right"><i class="fa fa-plus"></i></span><%}%>
-                            <%= lista.get(i).getNombre()%>
+                            <a href="?category=<%=codigo%>"><%= lista.get(i).getNombre()%></a>
                     </a>
                 </h4>
             </div>
-            <div id="<%= codigo%>" class="panel-collapse collapse">
+            <div id="<%=codigo%>" class="panel-collapse collapse">
                 <div class="panel-body">
                     <ul>
                         <% ArrayList<Categoria> listaSubcategoria = (ArrayList) CategoriaDao.listarSubCategoria(
@@ -27,7 +33,7 @@
                                 codigo = listaSubcategoria.get(j).getCodigo();
                         %>
 
-                        <li><a href="#"><%=listaSubcategoria.get(j).getNombre()%></a></li>
+                        <li><a href="?category=<%=codigo%>"><%=listaSubcategoria.get(j).getNombre()%></a></li>
                             <%}%>
                     </ul>
                 </div>
@@ -40,12 +46,11 @@
         <h2>Marcas</h2>
         <div class="brands-name">
             <ul class="nav nav-pills nav-stacked">
-                <li><a href="#"> <span class="pull-right">(56)</span>Nike</a></li>
-                <li><a href="#"> <span class="pull-right">(27)</span>Adidas</a></li>
-                <li><a href="#"> <span class="pull-right">(32)</span>Polo</a></li>
-                <li><a href="#"> <span class="pull-right">(5)</span>Puma</a></li>
-                <li><a href="#"> <span class="pull-right">(9)</span>Boude</a></li>
-                <li><a href="#"> <span class="pull-right">(4)</span>ACB</a></li>
+                <c:forEach var="brand" items="<%=MarcaDAO.listarTodoMarcas()%>">
+                    <c:set var="cod" value="${brand.getCodifo()}"></c:set>
+                    <% int cod = Integer.parseInt(pageContext.getAttribute( "cod" ).toString()); %>
+                    <li><a href="?brand=${cod}"> <span class="pull-right">(<%=MarcaDAO.contarMarcas( cod )%>)</span>${brand.getNombre()}</a></li>
+                </c:forEach>
             </ul>
         </div>
     </div><!--/brands_products-->

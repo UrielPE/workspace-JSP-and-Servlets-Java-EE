@@ -15,6 +15,12 @@ public class Marca implements Serializable
     public Marca(){
     }//end constructor
     
+    public Marca(int codifo, String nombre ) 
+    {
+        this.codifo = codifo;
+        this.nombre = nombre;
+    }//end constructor Marca
+    
     public Marca(int codifo, String nombre, boolean visible) 
     {
         this.codifo = codifo;

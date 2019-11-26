@@ -8,6 +8,7 @@ import java.io.Serializable;
 
 public class Categoria implements Serializable
 {
+    // instance variables
     private int codigo;
     private String nombre;
     private boolean visible;

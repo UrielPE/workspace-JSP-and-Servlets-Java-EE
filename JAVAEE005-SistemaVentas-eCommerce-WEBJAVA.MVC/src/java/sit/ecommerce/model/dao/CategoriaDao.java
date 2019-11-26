@@ -58,7 +58,7 @@ public class CategoriaDao
         }//end finally
     }//end static method listar
     
-    public static List<Categoria> listarSubCategoria( int catSuperior)
+    public static List<Categoria> listarSubCategoria( int catSuperior )
     {
         List<Categoria> lista = null;
         
@@ -123,6 +123,43 @@ public class CategoriaDao
             disconnect();
         }//end finally
     }//end static method listar
+    
+    public static List<Categoria> listarTodoDeCategoria()
+    {
+        List<Categoria> lista = null;
+        
+        try 
+        {
+            conexion = new Conexion();
+            connection = conexion.getConnection();
+            
+            callableStatement = connection.prepareCall( "{call sp_listarTodoDeCategoria()}" );
+            
+            resultSet = callableStatement.executeQuery();
+            
+            lista = new ArrayList< Categoria >();
+            while( resultSet.next() ){
+                
+                lista.add( 
+                    new Categoria(
+                        resultSet.getInt( 1 ),
+                        resultSet.getString( 2 )
+                    )
+                );
+            }//end while
+        }//end try
+        
+        catch (Exception e) {
+            
+            e.printStackTrace();
+        }//end catch
+        
+        finally{
+            
+            disconnect();
+            return lista;
+        }
+    }//end method listarTodoDeCategoria
     
     public static void disconnect()
     {

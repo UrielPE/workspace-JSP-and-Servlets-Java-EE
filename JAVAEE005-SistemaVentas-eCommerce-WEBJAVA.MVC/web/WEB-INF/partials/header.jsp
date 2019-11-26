@@ -43,7 +43,7 @@
                                 <li><a href="CambiarMoneda?moneda=MXN">Pesos Mexicanos (MXN)</a></li>
                                 <li><a href="CambiarMoneda?moneda=COP">Pesos Colombianos (COP)</a></li>
                                 <li><a href="CambiarMoneda?moneda=USD">Dolar(USA) (USD)</a></li>
-                                <li><a href="CambiarMoneda?moneda=PEN">Sol Peruano (PEN)</a></li>
+                                <li><a href="CambiarMoneda?moneda=PET">Sol Peruano (PEN)</a></li>
                             </ul>
                         </div>
                     </div>
@@ -52,8 +52,8 @@
                     <div class="shop-menu pull-right">
                         <ul class="nav navbar-nav">
                             <li><a href="#"><i class="fa fa-user"></i> Mi cuenta</a></li>
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i> Ver carrito</a></li>
-                            <li><a href="#"><i class="fa fa-crosshairs"></i> Finalizar compra</a></li>
+                            <li><a href="Cart"><i class="fa fa-shopping-cart"></i> Ver carrito</a></li>
+                            <li><a href="Checkout"><i class="fa fa-crosshairs"></i> Finalizar compra</a></li>
                             <li><a href="#"><i class="fa fa-lock"></i> Acceder</a></li>
                         </ul>
                     </div>
@@ -77,14 +77,14 @@
 
                     <div class="mainmenu pull-left">
                         <ul class="nav navbar-nav collapse navbar-collapse">
-                            <li><a href="#" class="active">Inicio</a></li>
+                            <li><a href="Home" class="active">Inicio</a></li>
                             <li><a href="#">Todos los Productos</a></li>
                             <li><a href="#">Ropa para Niños</a></li> 
                             <li><a href="#">Blog</a></li>
                             <li class="dropdown"><a href="#">Mi Compra<i class="fa fa-angle-down"></i></a>
                                 <ul role="menu" class="sub-menu">
-                                    <li><a href="#">Finalizar compra</a></li> 
-                                    <li><a href="#">Ver carrito</a></li> 
+                                    <li><a href="Checkout">Finalizar compra</a></li> 
+                                    <li><a href="Cart">Ver carrito</a></li> 
                                     <li><a href="#">Iniciar sesión</a></li> 
                                 </ul>
                             </li>
