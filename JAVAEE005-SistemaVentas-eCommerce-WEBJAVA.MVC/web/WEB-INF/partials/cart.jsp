@@ -102,6 +102,7 @@
 						</ul>
                                             <a class="btn btn-default update" href="Home">Seguir comprando</a>
                                             <a class="btn btn-default check_out" href="Checkout">Realizar pago</a>
+                                            <%@include file="../partials/checkout.jsp" %>
 					</div>
 				</div>
 			</div>
